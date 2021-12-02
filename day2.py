@@ -1,4 +1,4 @@
-f = open("day2.txt")
+f = open("Github/AOC/day2.txt")
 
 file_contents = f.read()
 
