@@ -1,5 +1,5 @@
 
-f = open("day1.txt")
+f = open("GitHub/AOC/day1.txt")
 file_contents = f.read()
 
 file_contents = file_contents.split("\n")
@@ -27,3 +27,5 @@ for i in range(3,len(new_list)):
         count += 1
 
 print(count)
+
+f.close()
