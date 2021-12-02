@@ -15,7 +15,6 @@ for i in range(1,len(new_list)):
 
 print(count)
 
-
 #part 2
 count = 0
 for i in range(3,len(new_list)):
