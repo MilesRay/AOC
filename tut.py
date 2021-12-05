@@ -123,3 +123,34 @@ for i in range(3,len(new_list)):
         count += 1
 
 print(count)
+
+
+
+mystring = "hello there"
+
+print(mystring[5])
+print(mystring[2:5])
+print(mystring[2:])
+print(mystring[:5])
+print(mystring[-1:])
+print(mystring[:-1])
+
+this = [3,2,5,8]
+mylist = [5, 2, 8, 9, 1]
+
+print(mylist[2:])
+
+var1, var2 = [4, 6]
+print(var1, var2)
+print(mystring.replace(" ", ""))
+
+
+# #list comp
+# called = []
+# for number in numbers.split(","):
+#     called.append(int(number))
+    
+# called = [int(n) for n in numbers.split(",")]
+
+print(sum(set(this) - set(mylist)))
+    
