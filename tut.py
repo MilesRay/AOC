@@ -153,4 +153,7 @@ print(mystring.replace(" ", ""))
 # called = [int(n) for n in numbers.split(",")]
 
 print(sum(set(this) - set(mylist)))
+
+new_array = [[0]*1000]*2
+print(new_array)
     
