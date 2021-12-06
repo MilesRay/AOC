@@ -154,6 +154,10 @@ print(mystring.replace(" ", ""))
 
 print(sum(set(this) - set(mylist)))
 
-new_array = [[0]*1000]*2
-print(new_array)
-    
+# new_array = [[0]*1000]*2
+# print(new_array)
+
+board = [1]
+print(board)
+board[0] += 2
+print(board)
