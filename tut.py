@@ -161,3 +161,9 @@ board = [1]
 print(board)
 board[0] += 2
 print(board)
+
+fuel = 12
+newFuel = 0
+for i in range(fuel+1):
+    newFuel += i
+print(newFuel)
