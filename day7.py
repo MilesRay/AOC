@@ -1,6 +1,6 @@
 file_contents = open("day7.txt").read().split(",")
 file_contents = [int(content) for content in file_contents]
-print(file_contents)
+# print(file_contents)
 # found = False
 # position = 0
 # cacheFuel = 200000000
@@ -41,6 +41,8 @@ while found == False:
     position += 1
     if position == 2000:
         found = True
+print(cacheFuel)
+print(found)
 print(cacheFuel)
 
 

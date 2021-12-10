@@ -167,3 +167,12 @@ newFuel = 0
 for i in range(fuel+1):
     newFuel += i
 print(newFuel)
+
+# next_array = [[0]*1000]*1000
+# print(next_array)
+board2 = [[0]*10]*10
+
+for j in range(10):
+    board2[j][0] = 1
+
+print(board2)
